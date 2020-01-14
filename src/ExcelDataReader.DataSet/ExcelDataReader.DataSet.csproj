@@ -4,24 +4,24 @@
     <Description>ExcelDataReader extension for reading Microsoft Excel files into System.Data.DataSet.</Description>
     <AssemblyTitle>ExcelDataReader.DataSet</AssemblyTitle>
     <VersionPrefix>3.6.0</VersionPrefix>
-    <Authors>Call-Em-All</Authors>
+    <Authors>ExcelDataReader developers</Authors>
     <TargetFrameworks>net20;net35;netstandard2.0</TargetFrameworks>
     <AssemblyName>ExcelDataReader.DataSet</AssemblyName>
     <AssemblyOriginatorKeyFile>..\ExcelDataReader.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>CEA.ExcelDataReader.DataSet</PackageId>
+    <PackageId>ExcelDataReader.DataSet</PackageId>
     <PackageTags>excel;xls;xlsx;dataset</PackageTags>
     <PackageIconUrl>https://nugetgallery.blob.core.windows.net/icons/ExcelDataReader.2.1.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/callemall/ExcelDataReader</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ExcelDataReader/ExcelDataReader</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <CodeAnalysisRuleSet>..\..\ExcelDataReader.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Company>Call-Em-All</Company>
-    <RepositoryUrl>https://github.com/callemall/ExcelDataReader</RepositoryUrl>
+    <Company></Company>
+    <RepositoryUrl></RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
